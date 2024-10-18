@@ -8,9 +8,8 @@ steps:
   inputs:
     terraformVersion: 'latest'
 
-    
- -script: terraform init
-  displayName: 'Terraform Init'
+-script: terraform init
+ displayName: 'Terraform Init'
   env:
     ARM_CLIENT_ID: $
     (ARM_CLIENT_ID)
