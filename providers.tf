@@ -1,4 +1,4 @@
-provider "azurem" {  
+provider "azurerm" {  
   features{}
   subsciption_id = ARM_SUBSCRIPTION_ID
   client_id = ARM_CLIENT_ID
