@@ -1,0 +1,6 @@
+pool:
+  name: "Default"
+steps:
+-script: echo  "Hello World"
+ displayName: "Simple Test"
+Script'
