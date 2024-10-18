@@ -12,7 +12,8 @@ steps:
     ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
     ARM_SUBSCRIPTION_ID: $(ARM_SUBSCRIPTION_ID)
     ARM_TENANT_ID: $(ARM_TENANT_ID)
- - script: terraform plan
+    
+- script: terraform plan
  displayName: 'Run Terraform Plan'
   env:
     ARM_CLIENT_ID: $(ARM_CLIENT_ID)
